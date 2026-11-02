@@ -1,0 +1,18 @@
+body { margin: 0; background: #eef1f5; font-family: "Segoe UI", Roboto, Arial, sans-serif; color: #1d3557; }
+.contenedor { max-width: 1400px; margin: 0 auto; padding: 20px; }
+header { background: linear-gradient(90deg, #1d3557, #457b9d); color: #fff; padding: 22px 28px; border-radius: 12px; }
+header h1 { margin: 0 0 6px; font-size: 28px; }
+header p { margin: 0; opacity: .9; }
+.filtros { display: grid; grid-template-columns: 1.3fr .7fr 2fr; gap: 20px; background: #fff; padding: 16px 20px; border-radius: 12px; margin: 16px 0; box-shadow: 0 1px 4px rgba(0,0,0,.08); }
+.filtros label { font-weight: 600; display: block; margin-bottom: 6px; }
+.filtros input[type=radio] { margin: 0 4px 0 10px; }
+.kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 16px; }
+.kpi { background: #fff; border-radius: 12px; padding: 14px 18px; box-shadow: 0 1px 4px rgba(0,0,0,.08); border-left: 5px solid #e63946; }
+.kpi span { font-size: 13px; color: #6c757d; text-transform: uppercase; letter-spacing: .5px; }
+.kpi h3 { margin: 4px 0 0; font-size: 26px; }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.panel { background: #fff; border-radius: 12px; padding: 10px; box-shadow: 0 1px 4px rgba(0,0,0,.08); }
+.panel.completo { grid-column: 1 / -1; }
+.panel h4 { margin: 8px 10px 12px; font-size: 16px; }
+footer { text-align: center; color: #6c757d; font-size: 13px; padding: 20px; }
+@media (max-width: 900px) { .grid, .filtros, .kpis { grid-template-columns: 1fr; } }
