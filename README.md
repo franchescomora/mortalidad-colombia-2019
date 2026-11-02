@@ -1,8 +1,8 @@
 # Mortalidad en Colombia 2019 – Aplicación web interactiva (Dash)
 
-**Integrantes:** _(escribir nombres completos)_
-**Aplicación desplegada:** _(URL de Render)_
-**Repositorio:** _(URL de GitHub)_
+**Estudiante:** _Giovanni Franchesco Mora Torres_
+**Aplicación desplegada:** _[(URL de Render)](https://mortalidad-colombia-2019-j7re.onrender.com/)_
+**Repositorio:** _[(URL de GitHub)](https://github.com/franchescomora/mortalidad-colombia-2019)_
 
 ## Introducción del proyecto
 Aplicación web dinámica desarrollada en Python con **Plotly** y **Dash** que analiza los 244.355 registros de defunciones no fetales de Colombia en 2019, publicados por el DANE en las Estadísticas Vitales (EEVV). La aplicación integra mapas, gráficos y tablas interactivas para explorar los datos.
